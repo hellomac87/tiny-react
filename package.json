@@ -1,0 +1,26 @@
+{
+  "name": "tiny-react",
+  "version": "1.0.0",
+  "description": "tiny-react",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel src -d bulid -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomac87/tiny-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellomac87/tiny-react/issues"
+  },
+  "homepage": "https://github.com/hellomac87/tiny-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10"
+  }
+}
