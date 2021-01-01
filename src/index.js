@@ -1,23 +1,14 @@
-import { createElement, render } from "./react";
+/* @jsx createElement */
+import { createElement, render } from "./react.js";
 
-<div id="root">
-  <span>blabla</span>
-</div>;
-
-// 이렇게 생긴게 버추얼 돔 아닐까?
-/*
-{
-    tagName:"div",
-    props: {
-        id:"root",
-        className:'container',
-    },
-    children: [
-        tagName:"span",
-        props: {},
-        children: [
-            'blabla'
-        ]
-    ]
+function Title(props) {
+  return (
+    <div>
+      <h2>정말 동작할까?</h2>
+      <p>잘 동작하는지 보고싶다.</p>
+    </div>
+  );
 }
-*/
+
+console.log(Title());
+// render(<Title />, document.getElementById("root"));
