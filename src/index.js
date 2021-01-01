@@ -10,5 +10,4 @@ function Title(props) {
   );
 }
 
-console.log(Title());
-// render(<Title />, document.getElementById("root"));
+render(<Title />, document.getElementById("root"));
